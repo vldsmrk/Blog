@@ -1,0 +1,32 @@
+@import './header.css';
+@import './blog_content.css';
+@import './create_post_form.css';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    font-family: sans-serif;
+}
+
+body{
+    background: linear-gradient(45deg, #f5f7fa, #c3cfe2);
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh; 
+}
+
+.container{
+    max-width: 1200px;
+    margin: 24px auto;
+    padding: 0 24px;
+    background-color: #fff;
+}
+
+.box-shadow{
+    -webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+}
+
